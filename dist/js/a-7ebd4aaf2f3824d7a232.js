@@ -57,21 +57,24 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://cdn.com";
+/******/ 	__webpack_require__.p = "./";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/* 0 */,
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-
-function main(params) {
-  console.log("main s");
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+function a(){
+    return {}
 }
-main()
+
+/* harmony default export */ __webpack_exports__["default"] = (a);
 
 /***/ })
 /******/ ]);

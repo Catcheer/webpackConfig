@@ -10,12 +10,13 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "./js/[name]-[chunkhash].js",
-    publicPath:'https://cdn.com'
+    // publicPath:'https://cdn.com'
+    publicPath:'./'
   },
   plugins: [
     new htmlWebpackPlugin({
       template: "./index.html",
-      filename:'a.html',
+      filename:'index.html',
       inject:'body',
       title:'a.html',
       chunks:['main','a']
